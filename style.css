@@ -1,0 +1,78 @@
+body {
+    background-color: grey;
+  }
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    font-size: 100px;
+  }
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+}
+  .box3{
+    width: 1000px;
+    height: 300px;
+    background-color: blue;
+    font-size: 100px;
+    color: orange;
+  }
+.box4{
+    background-color: lightblue;
+    height: 500px;
+    width: 500px;
+    font-size: 100px;
+}
+.box5{
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    font-size: 100px;
+}
+.box6 {
+    width: 500px;
+    height: 500px;
+    border: 30px solid black;
+    padding: 50px;
+    margin: 50px;
+    font-size: 70px;
+    background-color: green;
+  }
+.box7{
+    background-color: lightcoral;
+    height: 400px;
+    width: 400px;
+    font-size: 100px;
+    overflow: scroll;
+}
+.box8{
+    background-color: blueviolet;
+    border-radius: 50%;
+    height:600px;
+    width:200px;
+    text-align: center;
+    font-size: 100px;
+}
+.styledbutton{
+    height: 200px;
+    width:400px;
+    font-size: 70px;
+    border-radius: 10%;
+    background-color: aqua;
+    background-color: #3498db;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.styledbutton:active {
+    background-color: #2ecc71;
+}
